@@ -410,7 +410,9 @@ nav ul li a.active::after{
     justify-content:space-between;
     margin-bottom:18px;
 }
-
+.title-rating i{
+    color:#f4b400;
+}
 .price{
     display:flex;
     justify-content:space-between;
