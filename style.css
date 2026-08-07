@@ -700,20 +700,30 @@ footer p:hover{
     .hero-content h2{
         font-size:42px;
     }
+.badge{
+    display:flex;
+    position:absolute;
+    top:120px;
+    right:20px;
+    width:90px;
+    height:90px;
+}
 
-    .badge{
-        display: none;
-        position:static;
-        margin:30px auto;
-    }
+.badge h2{
+    font-size:28px;
+}
+
+.badge p{
+    font-size:14px;
+}
 
     .info-card{
         display: none;
         position:static;
         width:100%;
-        bottom:aut0 0;
+        bottom:auto 0;
         right: auto;
-        margin-top:30px auto 0;
+        margin:30px auto 0;
     }
 
     .features,
@@ -779,4 +789,17 @@ position: relative;
         border-radius:10px;
         width:100%;
     }
+    .destination-heading{
+    flex-direction:column;
+    gap:25px;
+    text-align:center;
+}
+
+.destination-heading h2{
+    font-size:32px;
+}
+
+.arrow-btns{
+    position:static;
+}
 }
